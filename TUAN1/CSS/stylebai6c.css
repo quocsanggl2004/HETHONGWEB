@@ -1,0 +1,9 @@
+.khung {
+    height: 100%;
+    width: 20%;
+    border: 2px solid rgb(38, 19, 213);
+    padding: 3px;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+}

@@ -1,0 +1,45 @@
+.khung {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid rgb(247, 168, 140);
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.kieu {
+    font-family: 'VNI-Fato', cursive;
+    font-weight: 550;
+    font-size: 250%;
+    color: rgb(232, 131, 59);
+}
+
+.anh {
+    width: 300px;
+    border: 2px solid rgb(174, 94, 44);
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(252, 174, 115)
+}
+
+body {
+    text-align: justify;
+}
+
+.image-right {
+    float: right;
+    margin-left: 10px;
+    width: 200px;
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted rgb(223, 182, 141);
+    margin: 20px 0;
+}
+
+.kieu1 {
+    font-family: 'Forte', cursive;
+    font-weight: 200;
+    font-size: 200%;
+    color: rgb(167, 129, 100);
+}

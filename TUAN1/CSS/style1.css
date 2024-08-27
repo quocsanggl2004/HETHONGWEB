@@ -1,0 +1,8 @@
+.khung {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: auto;
+}

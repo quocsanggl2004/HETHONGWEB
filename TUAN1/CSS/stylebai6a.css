@@ -1,0 +1,121 @@
+.khung {
+    height: 100%;
+    width: 70%;
+    border: 2px solid black;
+    padding: 40px;
+    margin: 0 auto;
+    /* Căn giữa theo chiều ngang */
+    background-color: #a3c1e9;
+    box-sizing: border-box;
+    /* Đảm bảo padding và border nằm trong kích thước */
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Cho phép các phần tử linh hoạt nếu không đủ không gian */
+    justify-content: flex-start;
+    /* Căn giữa các phần tử bên trong container */
+}
+
+.form-subgroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.form-subgroup label {
+    width: 230px;
+    /* Có thể điều chỉnh lại để phù hợp hơn với nhãn thực tế */
+    margin-right: 10px;
+}
+
+.form-subgroup input[type="text"] {
+    width: 142px;
+    /* Điều chỉnh độ rộng nếu cần */
+    height: 25px;
+}
+
+.gender-options label {
+    margin-right: 80px;
+    /* Khoảng cách giữa các lựa chọn */
+}
+
+.nut {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    /* Căn giữa các phần tử nằm ngang */
+    gap: 20px;
+    /* Khoảng cách giữa các nút */
+}
+
+#lastname {
+    width: 200px;
+    /* Kích thước riêng cho trường Last Name */
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#firstname {
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-left: -130px;
+}
+
+#address {
+    width: 400px;
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#city {
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#state {
+    width: 80px;
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-left: -180px;
+}
+
+#zip {
+    width: 90px;
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-left: -170px;
+}
+
+#product {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#other {
+    margin-left: -13px;
+}
+
+#unix {
+    margin-left: 11px;
+}

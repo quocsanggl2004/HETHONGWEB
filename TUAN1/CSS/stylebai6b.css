@@ -1,0 +1,69 @@
+.khung {
+    height: 100%;
+    width: 70%;
+    border: 2px solid rgb(62, 24, 214);
+    padding: 3px;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.box-with-text {
+    position: relative;
+    width: 95%;
+    margin: 40px auto;
+    padding: 3px;
+    border: 1px solid black;
+    padding-top: 30px;
+}
+
+.box-with-text::before {
+    content: 'Your message';
+    position: absolute;
+    top: -12px;
+    left: 6%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 10px;
+}
+
+.box-with-text.remake::before {
+    content: 'How you found us';
+    position: absolute;
+    top: -12px;
+    left: 7%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 10px;
+}
+
+.form-subgroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.form-subgroup span {
+    margin-left: 10px;
+    /* Khoảng cách giữa checkbox và văn bản */
+}
+
+.form-subgroup label {
+    width: 190px;
+    margin-right: 10px;
+}
+
+.form-subgroup input[type="text"] {
+    width: 142px;
+    height: 25px;
+}
+
+.nut {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+    margin-left: 19px;
+    margin-top: -20px;
+    justify-content: left;
+}

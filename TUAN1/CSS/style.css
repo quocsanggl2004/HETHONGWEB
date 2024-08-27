@@ -1,0 +1,36 @@
+.khung {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.image-row {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 40px;
+    height: auto;
+}
+
+.home-image {
+    margin-right: 40px;
+}
+
+.special {
+    margin-right: 5px;
+    margin: 2px;
+}
+
+.image-row .special:last-child {
+    margin-right: 0;
+}
+
+.slide {
+    width: 100px;
+    height: 60px;
+}
